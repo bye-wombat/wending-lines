@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wending Lines</title>
+  <style>
+    :root {
+      --primary: #6c7a89; /* deep grey-lavender */
+      --accent: #aec6cf;  /* soft blue */
+      --highlight: #f7c6c7; /* faint pink/salmon */
+      --bg: #fefefe;
+      --text: #2e2e2e;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--primary);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    nav {
+      text-align: center;
+      margin: 1rem 0;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: var(--highlight);
+    }
+
+    section {
+      max-width: 700px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    h2 {
+      color: var(--accent);
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: 0.5rem;
+    }
+
+    .project {
+      margin-bottom: 1.5rem;
+    }
+
+    .blog-post {
+      margin-bottom: 2rem;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+    }
+
+    form button {
+      background: var(--primary);
+      color: white;
+      border: none;
+      padding: 0.5rem 1.5rem;
+      font-size: 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background: var(--highlight);
+      color: var(--text);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    .socials a {
+      margin: 0 0.5rem;
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    .socials a:hover {
+      color: var(--highlight);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Wending Lines</h1>
+    <p>Thoughts, projects, and quiet moments worth sharing</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#blog">Blog</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>Hi, I’m Cindy.</p>
+  <p>This space is part journal, part toolkit, part open door. I write and build around themes of trust, presence, memory, and the quiet systems that shape how we relate—to ourselves, each other, and the tools we use every day.</p>
+  <p>I’m drawn to the in-between:<br />
+  between emotional depth and technical clarity,<br />
+  between precision and softness,<br />
+  between what we say we’re doing, and what we’re actually reaching for underneath it.</p>
+  <p>I use tools like Obsidian, Notion, and HTML not just for productivity, but to build living systems of reflection. Sometimes that means writing about password managers. Sometimes it means naming how it feels to be misunderstood by a chatbot. Sometimes it means saying <em>yes</em> to something uncertain but deeply real.</p>
+  <p><strong>WendingLines</strong> is a place to explore all of that—quietly, honestly, without performing.</p>
+</section>
+
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Wending Lines</h3>
+      <p>A personal research and reflection site exploring trust, presence, and open tools. Built in Notion and Obsidian.</p>
+    </div>
+    <div class="project">
+      <h3>Password Security Guides</h3>
+      <p>Guides for understanding tools like Bitwarden and passkeys, blending tech and personal narrative.</p>
+    </div>
+  </section>
+
+  <section id="blog">
+    <h2>Latest Posts</h2>
+    <div class="blog-post">
+      <h3><a href="how_we_keep_track.html">How We Keep Track of What Matters</a></h3>
+      <p>Reflections on memory, presence, and the role of documentation in emotional life.</p>
+    </div>
+    <div class="blog-post">
+      <h3><a href="coffee_grinder_guide.html">Understanding Your Coffee Grinder</a></h3>
+      <p>A primer on burrs and how tools shape our experience of flavor.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" name="name" placeholder="Your name" required />
+      <input type="email" name="email" placeholder="Your email" required />
+      <textarea name="message" rows="5" placeholder="Your message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <div class="socials">
+      <a href="#">Twitter</a>
+      <a href="#">GitHub</a>
+      <a href="#">LinkedIn</a>
+    </div>
+    <p>&copy; 2025. Made with subtle joy and quiet power.</p>
+  </footer>
+</body>
+</html>
