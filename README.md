@@ -3,13 +3,9 @@
 
 This is a living archive, unfolding slowly.
 
-A quiet invitation — not just to make contact,  
-but to explore the threads that cross between worlds:  
-inner and outer, written and unwritten, present and still emerging.
+It's an invitation. Not just to make contact, but to explore what crosses between worlds: inner and outer, written and unwritten, present and still emerging.
 
-You are welcome to trace these lines,  
-to follow where they lead,  
-and to discover what takes shape along the way.
+You are welcome to these lines, follow where they lead, and discover what takes shape along the way.
 
 ---
 
